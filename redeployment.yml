@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: venkyapp
+  namespace: venky
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: venkyapp
+  template:
+    metadata:
+      labels:
+        app: venkyapp
+    spec:
+      containers:
+      - name: venky-container
+        image: bojjavenkatesh67/paraloyal_task:latest
+        ports:
+        - containerPort: 80
+

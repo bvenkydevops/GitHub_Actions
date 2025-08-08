@@ -1,0 +1,12 @@
+1.HCL Tech 
+==============
+ 1.Introduce yourself.
+ 2.What is GitHub Actions.
+ 3.What is Matrix Strategy and why we use ?
+ 4.What is Jenkins CI/CD pipeline and How to configure pipeline stage by stage explain.
+ 5.How can you retrieve data form pipeline? like key-values i want data how can you do it?
+ 6.How can you configure Git checkout stage in pipeline ?
+ 7.How do you configure nexus in Jenkins pipeline?
+ 8.Do you have any experience on python language?
+ 9.Rate yourself in terraform?
+ 10.Can you write GitHub Actions Workflow?

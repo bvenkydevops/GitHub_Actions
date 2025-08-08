@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: rs-example
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: myrs
+  template:
+    metadata:
+      labels:
+        app: myrs
+    spec:
+      containers:
+      - name: nginx
+        image: nginx
+

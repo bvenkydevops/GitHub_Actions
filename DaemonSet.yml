@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: ds-example
+spec:
+  selector:
+    matchLabels:
+      app: myds
+  template:
+    metadata:
+      labels:
+        app: myds
+    spec:
+      containers:
+      - name: nginx
+        image: nginx
+
